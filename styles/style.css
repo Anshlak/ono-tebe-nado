@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,12 +7,12 @@
     /* border: 1px solid black;     */
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     flex-direction: row;
 }
 
-.header__links-list{
+.header__links-list {
     display: flex;
     gap: 32px;
     text-underline-position: under;
@@ -86,12 +86,11 @@
 }
 
 .aligned-text_centered {
-  
     text-align: center;
     margin-top: 10px;
-    letter-spacing: 30px;   
-    
+    letter-spacing: 30px;      
 }
+
 .aligned-text_right {
     text-align: right;
     margin-top: 4px;
@@ -99,7 +98,8 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 60px;     
+    letter-spacing: 60px;
+
 }
 
 .letter-spacing-extended-a {
@@ -151,6 +151,7 @@
     line-height: 47px;
     text-transform: uppercase;
     font-weight: 700;    
+  
 }
 
 .lots__card-list {
@@ -178,17 +179,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
+
 }
 
 .card_type_film {
     background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+
 }
 
-.card_type_book{
+.card_type_book {
     background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+
 }
 
-.card_type_picture{
+.card_type_picture {
     background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
 }
 
@@ -218,11 +222,12 @@
     font-weight: 24px;
     text-transform: lowercase;
     text-underline-position: under;   
+
 }
 
 /* about */
 
-.about{
+.about {
     padding: 181px 24px 157px;
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -239,6 +244,7 @@
     align-items: center;
     justify-self: center;
     justify-content: center;
+
 } 
 
 .about__logo {
@@ -260,6 +266,7 @@
     align-self: left;
     grid-column-start: 2;
     letter-spacing: 0.01em;    
+
 }
 
 .about__text {
@@ -271,7 +278,7 @@
 
 /* footer */
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -286,12 +293,12 @@
     text-underline-position: under;
 }
 
-.footer__menu{
+.footer__menu {
     display: flex;
     flex-direction: column;    
 }
 
-.footer__menu-list-item{
+.footer__menu-list-item {
     min-width: 149px;
     font-size: 18px;
     font-weight: 400;
@@ -300,11 +307,11 @@
     padding-left: 4px;
 }
 
-.footer__menu-link{
+.footer__menu-link {
     text-underline-position: under;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     list-style: none;
     text-decoration: none;
     text-align: center;
